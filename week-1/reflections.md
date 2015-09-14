@@ -40,3 +40,13 @@ rm - Remove files, directories, objects etc. Any file needing to be removed.
 
 help - honestly, I only remember learning about apropos in the crash course. But I searched online and yeah, it does the same thing in which you can get help on only build in bash commands.
 
+# 1.4 Forking and Cloning Reflection
+##### Assuming you already have an account, there would be a plus sign next to your profile picture on the top righthand corner, click that and you should see a drop down that includes the word "New Repositories", click that. You will be asked to give a repository name. Put down "Syema's the coolest", then select public if you do not care who sees your code, then add the license "MIT license". You have finally created your first Repository!
+
+To fork a repository, click on the top right button of the page you want to keep in your account for direct use. Its displayed under the profile button. Git will then ask you where you would want to fork this file, choose your profile account. Voilà! Its in your account.
+
+To clone a repo, on the right of the page theres a "HTTPS clone a URL", copy the link in the bar below it. Go into your Terminal and make sure you type in ls to know where you are in your directory. You should be in your main home directory. Create a directory called phase-0-curriculum. Change directory into that file. Then type in "git clone" then paste the URL. It should saved the files from github on to git for you to work on.
+
+The struggles with setting up git and Github would be that I kept getting an error when I tried to clone my forked repo. It would give me the following error: fatal: could not create work tree dir 'phase-0': Permission denied
+
+But I fixed it by restarting my terminal. I don't like that I guess because I still don't know what I did wrong there... But its cool, plenty of chances to be wrong for the rest of my coding future.
