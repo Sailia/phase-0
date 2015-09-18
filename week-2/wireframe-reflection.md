@@ -1,0 +1,1 @@
+![Wireframed blog](wireframe-blog-index.png)
