@@ -1,0 +1,58 @@
+html {
+    color: #000080;
+    background-color: #ffffff;
+}
+
+a {
+    color: #800080;
+  }
+
+a:visited {
+    color: #ff0000
+ }
+ p{
+  font-size: .75em;
+ }
+
+header {
+    text-align: center;
+    }
+span {
+    display: block;
+    }
+span bold {
+  display: initial;
+  font-size: 2em;
+}
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+h1 {
+  content: "";
+  display: block;
+  border-top: solid 1px black;
+  width: 100%;
+  height: 1px;
+  z-index: 1;
+}
+
+div {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+   }
+
+.img-circle {
+border-radius: 50%;
+
+}
+
+#imagecontainer {
+  text-align: center;
+  width: 100%;
+  display: inline-table
+}
