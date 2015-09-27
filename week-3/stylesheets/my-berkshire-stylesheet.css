@@ -56,3 +56,57 @@ border-radius: 50%;
   width: 100%;
   display: inline-table
 }
+
+h3  {
+  padding: 0;
+  margin: 0;
+  line-height: 20px;
+}
+
+
+h4  {
+  padding: 0;
+  margin: 0;
+  line-height: 20px;
+}
+
+h5  {
+  padding: 0;
+  margin:0;
+  line-height: 20px;
+}
+
+aside {
+text-align: center;
+}
+
+/*
+
+1.  What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+a.  That link needs to be in the HTML file
+b.  The href portion in that link must have the correct path in order to connect to the css file.
+
+2.  What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+I wouldn't say it was hard because it was fun to mess around with the different types of code that people were giving out online. I guess I need to get my positioning down when it comes to the size of the screen and how it is related between the content.
+
+
+3.  What CSS did you use to modify the element style (like size, color, etc.)
+
+I found "a:visited" really fun to use as its interactive. Using colors to define whether a link has been clicked was fun. Sizing was the hardest part for me as I had to figure out whats the appropriate way in assigning sizes. Creating a webpage appeared to be very sensitive when choosing the best way to align, px, %, and ems.
+
+
+4.  Did you modify the HTML to include classes or ids? If so, which did you chose and why? If you didn't, how would you know which one to add to your HTML?
+
+I did modify the HTML to include a div id and class="img-circle" so that I could turn a default square image of Warren into a circle.
+
+
+5.  When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+I think the original site had cleaner code only because it had incorporated tables throughout the site, so there was less positioning involved through CSS as the tables provided proper alignment.
+
+*/
+
+
+
