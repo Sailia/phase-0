@@ -1,12 +1,12 @@
-![Screenshot1](../../week-2/Screen Shot 1.png)
-![Screenshot2](../../week-2/Screen Shot 2.png)
-![Screenshot3](../../week-2/Screen Shot 3.png)
-![Screenshot4](../../week-2/Screen Shot 4.png)
-![Screenshot5](../../week-2/Screen Shot 5.png)
-![Screenshot6](../../week-2/Screen Shot 6.png)
-![Screenshot7](../../week-2/Screen Shot 7.png)
-![Screenshot8](../../week-2/Screen Shot 8.png)
-![Screenshot9](../../week-2/Screen Shot 9.png)
+![Screenshot1](../Screen Shot 1.png)
+![Screenshot2](../Screen Shot 2.png)
+![Screenshot3](../Screen Shot 3.png)
+![Screenshot4](../Screen Shot 4.png)
+![Screenshot5](../Screen Shot 5.png)
+![Screenshot6](../Screen Shot 6.png)
+![Screenshot7](../Screen Shot 7.png)
+![Screenshot8](../Screen Shot 8.png)
+![Screenshot9](../Screen Shot 9.png)
 
 
 #How can you use Chrome's DevTools inspector to help you format or position elements?
