@@ -4,7 +4,7 @@
 # include it in this file. Also make sure everything that isn't code
 # is commented in the file.
 
-# I worked on this challenge [by myself, with: ].
+# I worked on this challenge [by myself, with: Parminder].
 
 # 0. total Pseudocode
 # make sure all pseudocode is commented out!
