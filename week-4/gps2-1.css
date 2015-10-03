@@ -1,3 +1,51 @@
-h1  {
-  background-color: yellow;
+header {
+    text-align: center;
+    position: relative;
+}
+
+body {
+    position: relative;
+}
+
+h2 {
+    color: red;
+}
+
+a:visited {
+    color: white;
+}
+
+a:link {
+    color: purple;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:active {
+    color: blue;
+    background-color: black;
+}
+
+.column-2    {
+    width: 45%;
+    float: right;
+}
+
+.column-1    {
+    width: 45%;
+    float: left;
+    color: green;
+}
+
+footer {
+    position: absolute;
+    top: 1250px;
+    /* margin-top: 1000px; */
+}
+
+html {
+    background-color: pink;
+    font-family: Arial;
 }
