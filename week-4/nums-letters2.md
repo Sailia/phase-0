@@ -1,8 +1,10 @@
-[Defining Variables](https://github.com/Sailia/phase-0/blob/master/week-4/defining-variables2.rb)
-[Math Basics](https://github.com/Sailia/phase-0/blob/master/week-4/basic-math2.rb)
-[Simple String](https://github.com/Sailia/phase-0/blob/master/week-4/simple-string2.rb)
+ [Defining-Variables](https://github.com/Sailia/phase-0/blob/master/week-4/defining-variables2.rb)
 
+ [Math-Basics](https://github.com/Sailia/phase-0/blob/master/week-4/basic-math2.rb)
 
+ [Simple-String](https://github.com/Sailia/phase-0/blob/master/week-4/simple-string2.rb)
+
+<!---
 What does puts do?
 
 Prints a string on the next line.
@@ -23,7 +25,7 @@ irb(main):001:0> 24 * 365
 Minutes in a decade:
 irb(main):002:0> 60 * 24 * 365 * 10
 => 5256000
-
+```
 
 How does Ruby handle addition, subtraction, multiplication, and division of numbers?
 
