@@ -4,7 +4,7 @@
 
  [Simple-String](https://github.com/Sailia/phase-0/blob/master/week-4/simple-string2.rb)
 
-<!---
+
 What does puts do?
 
 Prints a string on the next line.
