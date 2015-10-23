@@ -12,9 +12,6 @@ puts "What's your favourite number?"
 num = gets.chomp.to_i
 puts "I like #{num += 1} because its bigger. Bigger means better."
 
-
-require "/address2/my_solution2"
-
 =begin
 How do you define a local variable?
 
