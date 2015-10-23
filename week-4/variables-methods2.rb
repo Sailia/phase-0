@@ -39,4 +39,9 @@ What was confusing about this material? What made sense?
 
 Still trying to figure out how to link to other files without using markdown.
 
+
+https://github.com/Sailia/phase-0/blob/master/week-4/address2/my_solution2.rb
+
+https://github.com/Sailia/phase-0/blob/master/week-4/math2/my_solution2.rb
+
 =end
