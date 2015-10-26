@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+}
+
+section.column-1 {
+    width: 45%;
+    float: left;
+}
+
+section.column-2 {
+    width: 45%;
+    float: right;
+}
+
+footer {
+    position: relative;
+    top: 1178px;
+}
