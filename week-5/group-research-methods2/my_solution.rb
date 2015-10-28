@@ -41,7 +41,7 @@ end
 # Checking Ruby Docs for methods on the array page and the hash page showed me what methods can be applied. I basically went through each of the examples on those pages that made the most sense to me.
 #
 #
-=begin
+
 # Person 2
 def my_array_modification_method!(source, thing_to_modify)
   source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
@@ -114,4 +114,3 @@ end
 #
 #
 #
-=end
