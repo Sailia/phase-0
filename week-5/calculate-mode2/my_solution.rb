@@ -58,3 +58,20 @@ end
 
 
 # 4. Reflection
+
+
+# Which data structure did you and your pair decide to implement and why?
+
+# I told my pair that I needed to learn the basics of logic in Ruby as I only am familiar with using built in methods. So he helped with the if else steps.
+
+# Were you more successful breaking this problem down into implementable pseudocode than the last with a pair?
+
+# My pair understood the steps needed to be taken whereas I was stumped on trying to figure out how to store key value pairs that occurred the most in an array.
+
+# What issues/successes did you run into when translating your pseudocode to code?
+
+ # I couldn't decipher whether the iteration was happening to a hash or an array. Sometimes pseudocode can only get you so far. There are rules to your pseudocode steps. Will be pairing on this again with another and hopefully understand his perspective.
+
+# What methods did you use to iterate through the content? Did you find any good ones when you were refactoring? Were they difficult to implement?
+
+# We used .each for the initial solution and .inject for the refactored. .each threw me off a little. But I understand now that it can work for hashes.
