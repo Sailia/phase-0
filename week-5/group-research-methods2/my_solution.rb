@@ -41,6 +41,22 @@ end
 # Checking Ruby Docs for methods on the array page and the hash page showed me what methods can be applied. I basically went through each of the examples on those pages that made the most sense to me.
 #
 #
+# Person 2(Carolina Medellin)
+def my_array_modification_method!(array,num)
+  array.each_index{|idx|
+    if array[idx].is_a?(Integer)
+      array[idx] += num
+    end
+    }
+end
+my_array_modification_method!(i_want_pets,2)
+
+def my_hash_finding_method(source, newage)
+  source.each do |name,age|
+    source[name] = (age += newage)
+  end
+  return source
+end
 
 # Person 3 (James Artz)
 def my_array_sorting_method(array)
@@ -60,21 +76,6 @@ end
 # of key/value pairs organized accordingly. I added .to_s to the array
 # sorting method so that it would consider all the elements as strings
 # when it sorts them.
-#
-#
-
-
-# Person 3
-def my_array_sorting_method(source)
-  source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
-end
-
-def my_hash_sorting_method(source)
-   source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
-end
-
-# Identify and describe the Ruby method(s) you implemented.
-#
 #
 #
 
