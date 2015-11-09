@@ -37,11 +37,58 @@
 # Don't forget to check on initialization for a card length
 # of exactly 16 digits
 
+# class CreditCard
+#   def initialize(integer)
+#     @integer = integer
+#     if integer.to_s.length != 16
+#       raise ArgumentError.new "This isn't a 16 digit number."
+#     end
+#   end
+
+#   def split_add
+#     nums = @integer
+#     nums = nums.to_s.split('')
+#     @new_array = []
+#     (0..15).each do |x|
+#       if x.even?
+#         @new_array << (nums[x].to_i * 2)
+#       else
+#         @new_array << nums[x].to_i
+#       end
+#     end
+#   end
+
+#   def total
+#     split_add
+#     add_array = []
+#     @new_array = @new_array.join
+#     @new_array = @new_array.split('')
+#     @new_array.map do |x|
+#       add_array << x.to_i
+#     end
+#     @sum = add_array.inject do |sum, x|
+#       sum = sum + x
+#     end
+#   end
+
+#     def check_card
+#       total
+#       if @sum % 10 == 0
+#         true
+#       else
+#         false
+#       end
+#    end
+# end
+
+
+
+# Refactored Solution
+
 class CreditCard
   def initialize(integer)
     @integer = integer
-    if integer.to_s.length != 16
-      raise ArgumentError.new "This isn't a 16 digit number."
+      raise ArgumentError.new "This isn't a 16 digit number." if integer.to_s.length != 16
     end
   end
 
@@ -61,8 +108,7 @@ class CreditCard
   def total
     split_add
     add_array = []
-    @new_array = @new_array.join
-    @new_array = @new_array.split('')
+    @new_array = @new_array.join.split('')
     @new_array.map do |x|
       add_array << x.to_i
     end
@@ -83,45 +129,19 @@ end
 
 
 
-# Refactored Solution
-
-
-
-
-
 
 
 
 # Reflection
 
-=begin
-class CreditCard
-  def initialize(integer)
-    @integer = integer
+# What was the most difficult part of this challenge for you and your pair?
 
-    if integer.to_s.size != 16
-      raise ArgumentError.new "Please enter a 16 digit number"
-    end
-  end
+# We struggled with going through each index in the array and modifying the element by multiplying it by two. My pair used his own solution by interating with the method scanf. He understood it but I struggled getting past that method as I wasn't familiar or found it readable. So I went and approached it by using a range.
 
-  def check_card
-    require 'scanf'
-    new_num = @integer.to_s.scanf("%1d" * @integer.to_s.size)
-#     p new_num
-    new_num = new_num.reverse
-    new_num.each_with_index do |x, i| i.odd?
-      if true
-        x.length * 2
-      else
-        x.next
-      end
-    end
-    p new_num
-  end
-end
+# What new methods did you find to help you when you refactored?
 
-test = CreditCard.new(1234567891234567)
+# I conversed with Katy in office hours and she told me there isn't much to refactor other than to not repeat the assigning of the new_array with two methods such as the .join and the .split
 
-p test.check_card
+# What concepts or learnings were you able to solidify in this challenge?
 
-=end
+# accessing other methods within a method doesn't have to have an instance variable if you want to just run the method.
