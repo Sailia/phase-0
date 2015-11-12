@@ -1,15 +1,16 @@
  // JavaScript Olympics
 
-// I paired [by myself, with:] on this challenge.
+// I paired [with: Darius] on this challenge.
 
-// This challenge took me [#] hours.
+// This challenge took me [2.5] hours.
 
 
 // Warm Up
 
 //Pseudocode
 // Take in array of athletes
-// Each athlet
+// Each athlete needs to have a key and a value
+// Access key when calling the name and event
 
 
 
@@ -26,6 +27,11 @@ for (var key in hash1) {
     console.log(hash1[key].name + " won " + hash1[key].event + "!")
 }
 
+// Pseudocode
+// create a variable that contains a string
+// use the reverse function and add a variable inside the parentheses after the function.
+// split the string, reverse it and then join it.
+// print to the console.
 
 // Jumble your words
 
@@ -35,6 +41,12 @@ function reverse(s){
 }
 
 console.log(reverse(s))
+
+// Pseudocode
+// create an array of numbers in order
+// create a function that accepts an argument
+// check to see if the argument is easily divisible by 2
+// if true, print to the console.
 
 // 2,4,6,8
 
@@ -46,7 +58,11 @@ function isEven(value) {
 
 console.log(arrayOfNumbers.filter(isEven))
 
-
+// Pseudocode
+// create a function that accepts four arguments
+// each argument is a name, age, sport and quote
+// call the function by creating a variable and setting it to a new function with strings assigned to those arguments.
+// print to the console
 // "We built this city"
 
 function Athlete(name, age, sport, quote){
@@ -86,15 +102,27 @@ console.log(michaelPhelps.name + " " + michaelPhelps.sport + " " + michaelPhelps
 
 // In a function however, I've learnt that you can create a function called Simple() and create the method inside the function with the keyword "this". this can refer to as "this.name" or "this.colour"
 // To call the the object, you would create a new object and set it to a variable. Then you would put in the name after this. They are also different by putting an empty parentheses in front of the new object. Ruby would give an error if there is not argument. But if there is an empty argument in JS, there is no error.
+// Javascript:
 
-function Simple() {
-  this.name = "Adam";
-}
+// function Simple() {
+//   this.name = "Adam";
+// }
 
-Simple.prototype.sayHi = function() {
-  return this.name + " says hi!";
-}
+// Simple.prototype.sayHi = function() {
+//   return this.name + " says hi!";
+// }
 
-var simple = new Simple();
-simple.sayHi();
-=> "Adam says Hi!"
+// var simple = new Simple();
+// simple.sayHi();
+// => "Adam says Hi!"
+
+// Ruby:
+
+// class Simple
+//   def initialize
+//     @name = "Adam"
+//   end
+//   attr_accessor :name
+// end
+
+// simple = Simple.new
