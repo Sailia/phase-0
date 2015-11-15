@@ -40,18 +40,20 @@ terah.children.colton.name = "Colton";
 adam.children = terah.children;
 
 
-
-
-
-
-
-
-
 // __________________________________________
 // Reflection: Use the reflection guidelines
 //
 //
-//
+// What tests did you have trouble passing? What did you do to make it pass? Why did that work?
+
+// I had trouble passing test 8, in which the error was called : ERROR: carson should be defined as an object and assigned as a child of Terah. To make it pass I had to literally declare an empty object, as an empty brace. Before I had it as = Object; but that didn't work...
+
+// How difficult was it to add and delete properties outside of the object itself?
+
+// Deleting was fairly easy. I just looked up a way to delete.
+
+// What did you learn about manipulating objects in this challenge?
+//That it is so easy to manipulate, and its a matter of visualising how you want objects to display.
 //
 //
 //
