@@ -82,3 +82,27 @@ alabama.virus_effects
 
 #=======================================================================
 # Reflection Section
+
+=begin
+
+What are the differences between the two different hash syntaxes shown in the state_data file?
+
+STATE_DATA is a global variable, and a nested hash has been assigned to each state. Each state is a key, and the value contains two key/value pairs.
+
+What does require_relative do? How is it different from require?
+
+It retrieves data from another file within the same folder. Require is different as you would have to specify which folder to go into to retrieve the data if it wasn't saved into the same folder.
+
+What are some ways to iterate through a hash?
+
+To make it easier for nested hashes, you can use an each method.
+
+When refactoring virus_effects, what stood out to you about the variables, if anything?
+
+The virus effects method had unnecessary instance variables for the following methods. virus_effects just needed to call the methods that contained the information it needed.
+
+What concept did you most solidify in this challenge?
+
+Accessing hashes and using less instance variables. Lastly implementing DRY methods as much as possible.
+
+=end
