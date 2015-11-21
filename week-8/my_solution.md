@@ -38,12 +38,6 @@ _______________________________________________
 
 5 sqlite> SELECT state_name FROM states
    ...> WHERE region_id=7;
-state_name
-----------
-Arkansas
-Louisiana
-Oklahoma
-Texas
 
 6 sqlite> SELECT state_name, population_density FROM states
    ...> WHERE population_density > 50
