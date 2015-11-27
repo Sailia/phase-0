@@ -44,7 +44,7 @@
 function guessingGame(guess, answer)  {
   if (guess == answer) {
     console.log("Correct");
-    console.log(solved())
+    console.log(solved());
    } (guess > answer) ? "Too high!" : "Too low!";
 };
 
